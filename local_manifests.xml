@@ -3,17 +3,27 @@
   <remove-project name="LineageOS/android_vendor_lineage" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" /> 
   <remove-project name="LineageOS/android_packages_apps_Dialer" /> 
+  <remove-project name="LineageOS/android_packages_apps_SimpleDeviceConfig" /> 
+  <remove-project name="LineageOS/android_packages_modules_Permission" />
+  <remove-project name="LineageOS/android_packages_modules_Connectivity" />
   <project name="murikbmx/android_device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="lineage-20" />
   <project name="LineageOS/android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="lineage-20" />
   <project name="gardiol/vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="github" revision="lineage-20" />
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />  
   <project name="murikbmx/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-20.0" />
+  <project name="murikbmx/android_frameworks_av" path="frameworks/av" remote="github" revision="lineage-20.0" />
+  <project name="murikbmx/android_system_core" path="system/core" remote="github" revision="lineage-20.0" />
   <project name="murikbmx/android_vendor_lineage" path="vendor/lineage" remote="github" revision="lineage-20.0" />
   <project name="murikbmx/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lineage-20.0" /> 
   <project name="murikbmx/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="lineage-20.0" /> 
   <project name="murikbmx/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="github" revision="lineage-20.0" /> 
+  <project name="murikbmx/android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="github" revision="lineage-20.0" />
+  <project name="murikbmx/android_packages_modules_Permission" path="packages/modules/Permission" remote="github" revision="lineage-20.0" />
+  <project name="murikbmx/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="github" revision="lineage-20.0" />
   <remote name="MindTheGapps" fetch="https://gitlab.com/MindTheGapps/" />
   <project path="vendor/gapps" name="vendor_gapps" remote="MindTheGapps" revision="tau" />
 </manifest>
